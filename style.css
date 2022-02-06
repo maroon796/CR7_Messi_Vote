@@ -31,7 +31,7 @@ body {
 }
 
 .split.left::before {
-  s
+  content: '';
 }
 
 .split.right {
