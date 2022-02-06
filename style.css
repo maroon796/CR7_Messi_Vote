@@ -26,4 +26,13 @@ body {
 .split.left {
   left: 0;
   background: url('maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split.right {
+  right: 0;
+  background: url('celebrity-lionel-messi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
