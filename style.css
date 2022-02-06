@@ -3,6 +3,8 @@
   --right-bg-color: rgba(40, 40, 40, 0.7);
   --left-btn-hover-color: rgba(80, 80, 240, 1);
   --right-btn-hover-color: rgb(117, 76, 128);
+  --hover-width: 80%;
+  --other-width: 20%;
 }
 
 * {
@@ -95,4 +97,20 @@ h1 {
   background: url('celebrity-lionel-messi.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hover-left .left {
+  width: var(--hover-width);
+}
+
+.hover-left .right {
+  width: var(--other-width);
+}
+
+.hover-right .right {
+  width: var(--hover-width);
+}
+
+.hover-right .left {
+  width: var(--other-width);
 }
