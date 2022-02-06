@@ -30,6 +30,10 @@ body {
   background-size: cover;
 }
 
+.split.left::before {
+  s
+}
+
 .split.right {
   right: 0;
   background: url('celebrity-lionel-messi.jpg');
